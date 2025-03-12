@@ -21,7 +21,8 @@ docker-compose up --build
 #Running Django Backend Locally (Without Docker)
 cd backend
 python -m venv venv
-source venv/bin/activate  # On Windows use venv\Scripts\activate
+source venv/bin/activate  
+On Windows use venv\Scripts\activate
 pip install -r requirements.txt
 python manage.py runserver
 
